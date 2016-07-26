@@ -1,0 +1,159 @@
+/*responsive para diferentes dispositivos*/
+
+ /* Telefono: */
+
+ $MarginSize: 10px;
+ $SquareHeight: 300px;
+.upContainer
+{
+  width: 100%;
+}
+ 
+.downContainer
+{
+  width:100%;
+}
+
+.cuadroRojo
+{
+  margin: $MarginSize;
+  box-sizing:border-box;
+  height: $SquareHeight;
+  background-color: red;
+  width: 100.00%;
+  float: left;
+}
+.cuadroVerde
+{
+  margin: $MarginSize;
+  box-sizing:border-box;
+  background-color: green;
+  height: $SquareHeight;
+  width: 100.00%;
+  float: left;
+}
+.cuadroAmarillo
+{
+  margin: $MarginSize;
+  background-color: yellow;
+  box-sizing:border-box;
+  height: $SquareHeight;
+  width: 100.00%;
+  float: left;
+}
+.cuadroCeleste
+{
+  margin: $MarginSize;
+  box-sizing:border-box;
+  background-color: lightblue;
+  height: 75px;
+  width: 100%;    
+  float: left;
+}
+.boton
+{
+  background-color: gray;
+  float: right;
+  width: 150px;
+  height: 75px;
+}
+
+.cuadroNaranja
+{
+  background-color: orange;
+  box-sizing:border-box;
+  width: 100.00%;
+  margin: $MarginSize;
+  height: $SquareHeight;
+  float: left;
+}
+.cuadroMorado
+{
+  background-color: purple;
+  box-sizing:border-box;
+  width: 100.00%;
+  height: $SquareHeight;
+  margin: $MarginSize;
+  float: left;
+}
+
+.cuadroAqua
+{
+  background-color: mediumaquamarine;
+  box-sizing:border-box;
+  height: $SquareHeight;
+  margin: $MarginSize;
+  width: 100.00%;
+  float: left;
+}
+.cuadroCafe
+{
+  background-color: brown;
+  height: $SquareHeight;
+  width: 100.00%;
+  box-sizing:border-box;
+  margin: $MarginSize;
+  float: left;
+}
+
+
+/* Tablets: */
+@media (min-width: 480px) {
+.orangeWrapper
+{
+  width: 50.00%;
+  box-sizing: border-box;
+  padding-right: 5px;
+  float: left;
+}
+.purpleWrapper
+{
+  width: 50.00%;
+  box-sizing: border-box;
+  padding-left: 5px;
+  float: right;
+}
+
+}
+
+/* Desktop: */
+@media (min-width: 768px) {
+.greenWrapper
+{
+  width: 50.00%;
+  box-sizing: border-box;
+  padding-right: 5px;
+  float: left;
+}
+.yellowWrapper
+{
+  width: 50.00%;
+  box-sizing: border-box;
+  padding-left: 5px;
+  float: left;
+}
+.orangeWrapper
+{
+  width: 33.33%;
+  box-sizing: border-box;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+}
+.purpleWrapper
+{
+  width: 33.33%;
+  box-sizing: border-box;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+}
+.aquaWrapper
+{
+  width: 33.34%;
+  box-sizing: border-box;
+  padding-right: 5px;
+  float: right; 
+}
+
+}
